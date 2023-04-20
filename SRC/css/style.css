@@ -44,7 +44,7 @@ body {
 .hero {
     grid-area: hero;
     height: 89vh;
-    background: url('../image/lemons.jpg') center center no-repeat;
+    background: url(../image/lemons.jpg) center center no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@ body {
 }
 
 .hero:after {
-    content: url('../image/seta_preta.png');
+    content: url(../image/seta_preta.png);
     height: 35px;
     bottom: 40px;
     position: absolute;
@@ -70,10 +70,10 @@ body {
 
 
 
-/* @-webkit-keyframes downarrow {
+ @-webkit-keyframes downarrow {
     0% { -webkit-transform: translatey(0); opacity: 0.4;}
     100% { -webkit-transform: translatey(1.4em);}
-}   */
+}   
 
 @media(max-width:425px) {
     .hero {
